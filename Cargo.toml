@@ -1,0 +1,12 @@
+[package]
+name = "futures-learn"
+version = "0.1.0"
+authors = ["kteza1 <k.teza1@gmail.com>"]
+
+[dependencies]
+futures = { git = "https://github.com/alexcrichton/futures-rs" }
+futures-io = { git = "https://github.com/alexcrichton/futures-rs" }
+futures-mio = { git = "https://github.com/alexcrichton/futures-rs" }
+futures-tls = { git = "https://github.com/alexcrichton/futures-rs" }
+openssl = {git = "https://github.com/alexcrichton/rust-openssl", branch = "tmp"}
+mqtt-protocol = "0.1"
