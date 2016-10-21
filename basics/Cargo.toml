@@ -1,0 +1,7 @@
+[package]
+name = "basics"
+version = "0.1.0"
+authors = ["kteza1 <k.teza1@gmail.com>"]
+
+[dependencies]
+futures = "0.1"
